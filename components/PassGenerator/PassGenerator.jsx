@@ -94,7 +94,7 @@ export default function PassGenerator() {
           ></input>
           {`Length`}
         </label>
-        <button type="submit">Generate!</button>
+        <button type="submit">Generate</button>
       </form>
     </div>
   );

@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  background-color: var(--btn-secondary);
+  padding: 1rem;
+  border-radius: var(--global-roundness);
+  border: 1px solid var(--btn-primary);
 }
 
 .row {

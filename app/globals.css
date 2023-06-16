@@ -8,6 +8,8 @@
   --btn-secondary: #e3e8e3;
   
   --accent: #77c66a;
+
+  --global-roundness: 2px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -56,7 +58,7 @@ button {
   color: var(--fg);
   background-color: var(--btn-primary);
   border: none;
-  border-radius: 2px;
+  border-radius: var(--global-roundness);
   cursor: pointer;
   flex-grow: 1;
   width: 100%;
@@ -81,7 +83,8 @@ input {
   font-size: 1rem;
   color: var(--fg);
   background-color: var(--bg);
-  border: 2px solid var(--btn-secondary);
+  border: 1px solid var(--btn-primary);
+  border-radius: var(--global-roundness);
   outline: none;
   transition: 200ms;
 }
