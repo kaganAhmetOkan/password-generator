@@ -70,3 +70,9 @@ button:hover {
 button:active {
   scale: 0.9;
 }
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

@@ -1,9 +1,10 @@
 import style from "./page.module.css";
+import PassGenerator from "@/components/PassGenerator/PassGenerator";
 
 export default function Home() {
   return (
     <main className={style.main}>
-      <h1>Hello World</h1>
+      <PassGenerator />
     </main>
   );
 };
